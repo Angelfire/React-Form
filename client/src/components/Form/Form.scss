@@ -1,11 +1,15 @@
 .form {
   &-info {
+    background-color: #fff;
     display: flex;
     width: 400px;
     flex-flow: column;
+    padding: 12px;
   }
 
   &-input {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
     padding: 9px;
   }
 

@@ -34,7 +34,7 @@ class Form extends Component {
     };
 
     try {
-      fetch("http://localhost:3001/contact", {
+      const response = fetch("http://localhost:3001/contact", {
         method: "POST",
         headers: {
           Accept: "application/json",
